@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "https://github.com/wyygpy/tmdb-proxy-v3",
+            "permanent": true
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/t/p/:path*",
+            "destination": "https://images.tmdb.org/t/p/:path*"
+        },
+        {
+            "source": "/:size(w\\d+|h\\d+|original)/:path*",
+            "destination": "https://images.tmdb.org/t/p/:size/:path*"
+        },
+        {
+            "source": "/:path*",
+            "destination": "/api/tmdb.js"
+        }
+    ]
+}
