@@ -3,7 +3,7 @@
     "redirects": [
         {
             "source": "/",
-            "destination": "https://github.com/wyygpy/tmdb-proxy-v3",
+            "destination": "https://github.com/wyygpy/tmdb-proxy",
             "permanent": true
         }
     ],
